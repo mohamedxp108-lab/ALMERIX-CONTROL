@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100b1d">
+  <title>ALMERIX CONTROL</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="/"><span class="brand-mark">A</span><span>ALMERIX<span class="muted"> CONTROL</span></span></a>
+    <div class="top-actions"><span class="status-dot"></span><span class="status-label">Panel seguro</span><button id="loginBtn" class="discord-btn"> <span>◈</span> Iniciar sesión con Discord</button><button id="logoutBtn" class="ghost hidden">Cerrar sesión</button></div>
+  </header>
+  <main>
+    <section id="welcome" class="welcome">
+      <div class="eyebrow"><span class="pulse"></span> CONTROL CENTRAL DE ALMERIX</div>
+      <h1>Tu comunidad.<br><span>Tu control.</span></h1>
+      <p class="lead">Administra la seguridad y configuración de tus servidores desde un solo lugar.</p>
+      <button id="heroLogin" class="discord-btn big"><span>◈</span> Continuar con Discord</button>
+      <div class="trust"><span>⌑</span> Autenticación oficial de Discord <i></i> Tus credenciales no se comparten</div>
+      <div class="preview">
+        <div class="preview-head"><div class="window-dots"><b></b><b></b><b></b></div><span>ALMERIX / OVERVIEW</span><span class="live">● SISTEMA</span></div>
+        <div class="preview-grid"><div class="preview-card"><small>PROTECCIÓN</small><strong>Activa</strong><em>Seguridad centralizada</em></div><div class="preview-card"><small>SERVIDORES</small><strong>—</strong><em>Conecta Discord</em></div><div class="preview-card"><small>BACKUPS</small><strong>—</strong><em>Estado por configurar</em></div></div>
+        <div class="preview-line"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+    </section>
+    <section id="dashboard" class="dashboard hidden">
+      <div class="dash-heading"><div><div class="eyebrow">CENTRO DE OPERACIONES</div><h2>Panel de control</h2><p class="muted">Bienvenido, <strong id="userName">Discord user</strong>.</p></div><div class="user-chip"><img id="userAvatar" alt=""><span id="userTag"></span></div></div>
+      <div class="notice"><b>En construcción:</b> el acceso con Discord ya está preparado. Los módulos se conectarán al bot por API antes de poder modificar la configuración real.</div>
+      <div class="dash-layout">
+        <aside class="sidebar"><div class="side-label">GENERAL</div><button class="side-item selected">◫ <span>Resumen</span></button><button class="side-item">♙ <span>Servidores</span></button><div class="side-label">GESTIÓN</div><button class="side-item">⬡ <span>Seguridad</span></button><button class="side-item">▤ <span>Registros</span></button><button class="side-item">◷ <span>Backups</span></button><button class="side-item">⚙ <span>Configuración</span></button></aside>
+        <div class="main-cards"><div class="metric"><small>ESTADO DEL BOT</small><strong>Por conectar</strong><span class="metric-icon">⬡</span><p>API pendiente</p></div><div class="metric"><small>SERVIDORES</small><strong>—</strong><span class="metric-icon">♙</span><p>Permisos OAuth pendientes</p></div><div class="metric"><small>SISTEMAS DE SEGURIDAD</small><strong>—</strong><span class="metric-icon">⌑</span><p>Integración pendiente</p></div>
+          <div class="module-area"><div class="module-title"><div><h3>Módulos de ALMERIX</h3><p class="muted">Se activarán al conectar el backend del bot.</p></div><span class="tag">PRÓXIMAMENTE</span></div><div class="modules"><article><b>⬡</b><h4>Anti-Raid</h4><p>Protección ante entradas masivas.</p><span>NO CONECTADO</span></article><article><b>⌁</b><h4>Anti-Spam</h4><p>Control de mensajes repetidos.</p><span>NO CONECTADO</span></article><article><b>◷</b><h4>Backups</h4><p>Copias y restauración del servidor.</p><span>NO CONECTADO</span></article><article><b>▣</b><h4>Registros</h4><p>Consulta de acciones y sanciones.</p><span>NO CONECTADO</span></article></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><span>© 2026 ALMERIX CONTROL</span><span>Hecho para proteger comunidades <b>◆</b></span></footer>
+  <script src="/app.js"></script>
+</body>
+</html>

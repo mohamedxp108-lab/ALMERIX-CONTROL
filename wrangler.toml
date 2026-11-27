@@ -1,0 +1,10 @@
+name = "almerix-control"
+compatibility_date = "2026-11-27"
+pages_build_output_dir = "./public"
+
+# In Cloudflare Pages, add these as environment variables/secrets:
+# DISCORD_CLIENT_ID
+# DISCORD_CLIENT_SECRET (secret)
+# DISCORD_REDIRECT_URI
+# SESSION_SECRET (secret; use a long random value)
+# BOT_TOKEN (secret; never expose it in frontend code)
